@@ -39,7 +39,7 @@
                         <form id="my_form2" name="user_data2" method="GET" action="http://fe.it-academy.by/TestForm.php">
                             <fieldset>
                                 <legend>Строка поиска</legend>
-                                <input type="text" id="searchId2" name="search2" placeholder="обязательное поле"  autofocus>*
+                                <input type="text" id="searchId2" name="search2" required autofocus>*
                                 <input type="submit" value="Отправить">
                                 <br>
                                 <label>
@@ -70,9 +70,9 @@
                             <fieldset>
                                 <legend>Авторизируйтесь</legend>
                                 
-                                <input type="text" id="login" name="login" placeholder="это обязательное поле">
+                                <input type="text" id="login" name="login" required>
                                 <label for="login">* Логин</label>
-                                <input type="password" id="pass" name="password" placeholder="это обязательное поле">
+                                <input type="password" id="pass" name="password" required>
                                 <label for="pass">* Пароль</label>
                                 <br>
                                 <label>
@@ -127,10 +127,10 @@
                             <fieldset>
                                 <legend>Оставьте Ваш отзыв</legend>
                                 
-                                <input type="text" id="Name" name="name" placeholder="это обязательное поле">
+                                <input type="text" id="Name" name="name" required>
                                 <label for="name">* Имя</label>
                                 <br>
-                                <input type="email" id="email" name="mail" placeholder="это обязательное поле">
+                                <input type="email" id="email" name="mail" required>
                                 <label for="email">* e-mail</label>
                                 <br>
                                 <textarea name="text_area" lang="ru">
