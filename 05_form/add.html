@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<HTML> 
+        <HEAD> 
+            <META charset="utf-8"> 
+            <TITLE>Пример страницы</TITLE> 
+        </HEAD> 
+        <BODY> 
+            <H1>Заполните анкету</H1>
+            <form id="my_form5" name="user_data5" method="POST" action="http://fe.it-academy.by/TestForm.php">
+                <fieldset>
+                    <legend>Личные данные</legend>
+                    <input type="text" id="Familiya" name="familiya" placeholder="Фамилия" pattern="[А-Я а-я]{25}" required autofocus>
+                    <br>
+                    <input type="text" id="Name" name="Name" placeholder="Имя" pattern="[А-Я а-я]{20}" required>
+                    <br>
+                    <input type="text" id="Otchestvo" name="Otchestvo" placeholder="Отчество" pattern="[А-Я а-я]{24}" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Паспортные данные</legend>
+                    <label for="seria">Серия</label>
+                    <input type="text" id="seria" pattern="[A-Z]{2}" required>
+                    <label for="nompasport">Номер паспорта</label>
+                    <input type="text" id="nompasport" pattern="[0-7]{7}" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Дата рождения</legend>
+                    <input type="text" id="Year" name="Year" placeholder="Год" pattern="[0-9]{4}">
+                    <select name="mongh" id="month">
+                        <option value="January">январь</option>
+                        <option value="February">февраль</option>
+                        <option value="March">март</option>
+                        <option value="April">апрель</option>
+                        <option value="May ">май</option>
+                        <option value="June ">июнь</option>
+                        <option value="July ">июль</option>
+                        <option value="August ">август</option>
+                        <option value="September ">сентябрь</option>
+                        <option value="October ">октябрь</option>
+                        <option value="November">ноябрь</option>
+                        <option value="December">декабрь</option>
+                    </select> 
+                </fieldset>
+                <fieldset>
+                    <legend>Кнопки управления</legend>
+                    <input type="submit" value="Отправить">
+                    <input type="reset" value="Сбросить">
+                    <br>
+                    <button>
+
+                        <img src='email.gif' width="40">
+                        
+                    </button>
+                </fieldset>
+            </form>
+        </BODY> 
+</HTML> 
