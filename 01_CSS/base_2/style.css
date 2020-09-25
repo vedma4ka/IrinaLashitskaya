@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+header{
+    text-align: right;
+}
+h1{
+    font-size: 20px;
+}
+h3{
+    font-family: 'Caveat', cursive;
+    font-size: 15pt;
+    font-weight: 600; 
+    text-indent: 5mm;
+    text-decoration: underline;   
+}
+article{
+    font-family: 'Caveat', cursive;
+    font-size: 15pt;
+}
+article p{
+    text-indent: 5mm;
+}
